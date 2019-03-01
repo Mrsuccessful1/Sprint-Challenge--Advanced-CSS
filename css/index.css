@@ -193,6 +193,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro img {
+  width: 100%;
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -234,6 +237,23 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7%;
+  font-size: 1.6rem;
+  width: 30%;
+  height: 10%;
+  background: black;
+  color: white;
+}
+.home .walk .walk-text .btn:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  margin-bottom: -2px;
 }
 .home .walk .walk-img {
   width: 46%;
