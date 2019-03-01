@@ -161,8 +161,6 @@ p {
   margin: 0 auto;
 }
 .navigation {
-  display: flex;
-  flex-direction: column;
   background: whitesmoke;
   padding: 10px;
   max-width: 1000px;
