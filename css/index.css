@@ -282,14 +282,17 @@ footer {
   color: black;
   border: 1px solid black;
   padding: -1px;
+  margin-bottom: -2px;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 98%;
     height: 60px;
     border-radius: 4%;
-    padding: px;
     margin: 0 auto;
+  }
+  .home .walk .walk-text .btn:hover {
+    margin-bottom: -0.25px;
   }
 }
 .home .walk .walk-img {
